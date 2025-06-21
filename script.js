@@ -268,7 +268,7 @@ const createUsername = (fname, lname) => {
   let count = fname.length + lname.length;
   return fname.substring(0, 3) + lname.substring(0, 3) + count;
 };
-console.log("Exercise 11 Result:", createUsername("Samantha","Green"));
+console.log("Exercise 11 Result:", createUsername("Samantha", "Green"));
 
 /*
 Exercise 12: numArgs()
